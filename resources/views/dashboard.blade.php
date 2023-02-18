@@ -29,8 +29,10 @@
                             $data = strftime("%A, %d %B %Y");
                             echo ($data); 
                             @endphp
+                        </div> 
+                        <div class="small d-flex mt-1">                               
+                            <div>Sono le ore: @php echo(date('H:i:s') ); @endphp</div>
                         </div>
-                        <br><br> 
                     </div>
                 </div>
             </div>
