@@ -6,4 +6,9 @@ Laravel template for personal projects with crud functions
 Laravel 10
 Breeze
 
-![template](https://user-images.githubusercontent.com/1055395/219904199-eb4a30de-b3cb-42f4-9e61-27a6f1d095cb.png)
+
+![template](https://user-images.githubusercontent.com/1055395/219904353-b1c3ff22-c2a1-48f7-8838-845158826227.png)
+
+![template2](https://user-images.githubusercontent.com/1055395/219904360-199de6f0-7579-46df-a629-13a5e32977fa.png)
+
+
