@@ -46,11 +46,16 @@
                     <div class="card-body style="margin: 0 auto; text-align: center;">
                     <br>
                     <h2 class="fs-5 fw-bold mb-1">Statistiche Database</h2>
-                        <br>
+                    <br>
+                        <div class="small d-flex mt-1">
+                            Studenti presenti nel database: {{{ $stotal }}}
+                            </div>
+                        <div class="small d-flex mt-1">
+                            Utenti registrati:  {{{ $utotal }}}
+                        </div>
                         <div class="card-body" style="margin: 0 auto; text-align: center;">
                         <img><img src="assets/img/illustrations/statistiche.jpg"></img>
-                        </div>    
-                                
+                        </div>         
                     </div>
                 </div>
             </div>
@@ -63,11 +68,14 @@
                 <div class="card border-0 shadow">
                     <div class="card-body" style="margin: 0 auto; text-align: center;">
                         <br>
-                        <h2 class="fs-5 fw-bold mb-1">Analisi attività</h2>
+                        <h2 class="fs-5 fw-bold mb-1">Monitoraggio Utenti</h2>
                         <br>
+                        <div class="small d-flex mt-1">
+                            Ultimo utente registrato:  {{{ $lastu }}}
+                        </div>
                         <div class="card-body" style="margin: 0 auto; text-align: center;">
                         <img><img src="assets/img/illustrations/analisi.jpg"></img>
-                        <br><br>
+                        <br><br><br>
                         </div>
                     </div>
                 </div>
