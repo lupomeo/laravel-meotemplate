@@ -210,6 +210,23 @@
                     success: function(res) {
                         var oTable = $('#products').dataTable();
                         oTable.fnDraw(false);
+                        const notyf = new Notyf({
+                            position: {
+                                x: 'right',
+                                y: 'top',
+                            },
+                            types: [
+                                {
+                                    type: 'info',
+                                    background: 'green',
+                                    dismissible: false
+                                }
+                            ]
+                        });
+                        notyf.open({
+                            type: 'info',
+                            message: 'Dati salvati con successo.'
+                        });
                     }
                 });
             }
@@ -230,12 +247,22 @@
                     oTable.fnDraw(false);
                     $("#btn-save").html('Submit');
                     $("#btn-save").attr("disabled", false);
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Info',
-                        text: 'Dati salvati con successo',
-                        showConfirmButton: false,
-                        timer: 1500
+                    const notyf = new Notyf({
+                        position: {
+                            x: 'right',
+                            y: 'top',
+                        },
+                        types: [
+                            {
+                                type: 'info',
+                                background: 'green',
+                                dismissible: false
+                            }
+                        ]
+                    });
+                    notyf.open({
+                        type: 'info',
+                        message: 'Dati salvati con successo.'
                     });
                 },
                 error: function(data) {
