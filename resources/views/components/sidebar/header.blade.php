@@ -4,7 +4,8 @@
         href="{{ route('dashboard') }}"
         class="inline-flex items-center gap-2"
     >
-        <x-application-logo aria-hidden="true" class="w-10 h-auto" />
+        <!--  <x-application-logo aria-hidden="true" class="w-10 h-auto" /> -->
+        <img src="assets/img/heart-logo-png50x50.webp" aria-hidden="true" class="w-10 h-auto">
 
         <span class="sr-only">Dashboard</span>
     </a>
