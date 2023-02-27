@@ -32,7 +32,11 @@
                         </div> 
                         <div class="small d-flex mt-1">                               
                             <div>Sono le ore: @php echo(date('H:i:s') ); @endphp</div>
+                            <br><br>
                         </div>
+                    </div>
+                    <div class="card-body" style="margin: 0 auto; text-align: center;">
+                        <img><img src="assets/img/Logo-1.png"></img>
                     </div>
                 </div>
             </div>
@@ -44,9 +48,8 @@
             <div class="col-12 px-0">
                 <div class="card border-0 shadow" style="margin: 0 auto; text-align: center;">
                     <div class="card-body style="margin: 0 auto; text-align: center;">
-                    <br>
                     <h2 class="fs-5 fw-bold mb-1">Statistiche Database</h2>
-                    <br>
+                    
                         <div class="small d-flex mt-1">
                             Studenti presenti nel database: {{{ $stotal }}}
                             </div>
@@ -67,15 +70,16 @@
             <div class="col-12 px-0">
                 <div class="card border-0 shadow">
                     <div class="card-body" style="margin: 0 auto; text-align: center;">
-                        <br>
+                        
                         <h2 class="fs-5 fw-bold mb-1">Monitoraggio Utenti</h2>
-                        <br>
+                        
                         <div class="small d-flex mt-1">
                             Ultimo utente registrato:  {{{ $lastu }}}
                         </div>
+                        <br>
                         <div class="card-body" style="margin: 0 auto; text-align: center;">
                         <img><img src="assets/img/illustrations/analisi.jpg"></img>
-                        <br><br><br>
+                        <br><br>
                         </div>
                     </div>
                 </div>
